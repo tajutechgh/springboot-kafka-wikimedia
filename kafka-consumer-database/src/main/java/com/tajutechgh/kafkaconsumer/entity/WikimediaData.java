@@ -37,4 +37,12 @@ public class WikimediaData {
     public void setWikiEventData(String wikiEventData) {
         this.wikiEventData = wikiEventData;
     }
+
+    @Override
+    public String toString() {
+        return "WikimediaData{" +
+                "id=" + id +
+                ", wikiEventData='" + wikiEventData + '\'' +
+                '}';
+    }
 }
